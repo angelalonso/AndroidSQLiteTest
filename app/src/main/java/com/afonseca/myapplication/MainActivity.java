@@ -13,8 +13,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //DB myDB = new DB();
-        Intent intent = new Intent(this, TestDatabaseActivity.class);
+        Intent intent = new Intent(this, MsgingActivity.class);
         startActivity(intent);
 
     }
@@ -22,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; this adds msging_listview_item to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }

@@ -19,6 +19,9 @@
         <activity
             android:name=".TestDatabaseActivity">
         </activity>
+        <activity
+            android:name=".MsgingActivity">
+        </activity>
     </application>
 
 </manifest>
